@@ -142,10 +142,6 @@ export default function Login() {
         <Link to="/register" className="font-medium text-primary hover:underline">Sign up</Link>
       </p>
 
-      <div className="mt-8 rounded-xl border border-paper-line bg-paper-soft p-4 text-xs text-ink/50 dark:border-ink-line dark:bg-ink-soft dark:text-paper/50">
-        Demo account: <span className="font-data">demo@careertrack.ai</span> / <span className="font-data">Demo@12345</span>
-        <br />(after running <span className="font-data">npm run seed</span> on the server)
-      </div>
     </div>
   );
 }
